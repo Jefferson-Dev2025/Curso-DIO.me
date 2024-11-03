@@ -1,15 +1,11 @@
-console.log(Bem vindos jogadores)
-let finalizado =  cadastrado com sucesso!
-let pokeNomes = [Poochyena , Zigzagoon,Dragonite,Wurmple]
-let poketime = [
-  [Poochyena,Feminino,L05,115],
-  [Zigzagoon,Masculino,L10,100],
-  [Jefferson,Masculino,L41,1982],
-  [Dragonite,Feminino,L15,45],
-  [Wurmple,Masculino,L13,23]
+console.log("Bem vindos jogadores")
+let finalizado = " cadastrado com sucesso!"
+let nome = ["Jefferson" , "Marlene" , "Patrick"]
+let time = [
+  ["Jefferson" , "Masculino" , 15],
+  ["Marlene" , "Feminino" , 15],
+  ["Patrick" , "Masculino" , 15]
 ]
-console.log(Seu nome é  + poketime[2][0] +  do sexo +
-poketime[2][1] +  está no nível  + poketime[2][2] +
- tem total de Pontos de + poketime[2][3]
-)
-console.log(poketime[2][0]+finalizado)
+console.log("O jogador " + time[0][0] + " é do sexo " + time[0][1] + " e etá no níval " + time[0][2])
+
+console.log(time[0][0] + finalizado)
