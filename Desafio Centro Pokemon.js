@@ -6,6 +6,5 @@ let time = [
   ["Marlene" , "Feminino" , 15],
   ["Patrick" , "Masculino" , 15]
 ]
-console.log("O jogador " + time[0][0] + " é do sexo " + time[0][1] + " e etá no níval " + time[0][2])
-
 console.log(time[0][0] + finalizado)
+console.log("O jogador " + time[0][0] + " é do sexo " + time[0][1] + " e etá no níval " + time[0][2])
